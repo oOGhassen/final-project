@@ -1,0 +1,57 @@
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  
+  .nave {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .all_nave {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .signUp {
+    margin-right: 0.5rem;
+  }
+  
+  /* panier icon */
+  .btnCartCount {
+    width: 50px;
+    height: 50px;
+    color: black;
+    /* background: black; */
+    border-radius: 15px;
+    transform: rotate(45deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*  position: fixed;  */
+    top: 15.5rem;
+    cursor: pointer;
+    right: 1rem;
+  }
+  
+  .btnCartCount .count {
+    position: absolute;
+    background: orangered;
+    top: -0.001rem;
+    left: -0.1rem;
+    transform: rotate(-45deg);
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    font-size: 0.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+  }
+  .btnCartCount i {
+    transform: rotate(-45deg);
+    /* width: 0.8rem; */
+  }
+  

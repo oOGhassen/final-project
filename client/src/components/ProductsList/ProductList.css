@@ -1,0 +1,11 @@
+.home {
+    margin-top: 0.5rem;
+  }
+  
+  .listProduct {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+  }
+  

@@ -1,0 +1,10 @@
+.productCard {
+    margin-top: 0.5rem;
+}
+
+.btns_user,
+.btns_admin  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
